@@ -60,6 +60,12 @@ p, article {
 
 ul {
   margin: 2em 0 0 0; }
+  ul li {
+    margin: 0.25em 0; }
+
+a {
+  color: #328bb1;
+  text-decoration: none; }
 
 .container {
   width: 60em;
@@ -82,6 +88,30 @@ header {
   border-bottom: 10px solid #dedccc;
   height: 500px;
   background: white url(/assets/img/header_bg.jpg) center no-repeat; }
+  header nav#global_nav {
+    padding: 2.875em 0 0 0; }
+    header nav#global_nav h1 {
+      font-size: 1.875em;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      width: 167px;
+      float: left;
+      color: white;
+      margin-top: -2px; }
+      header nav#global_nav h1 span {
+        font-size: 0.4em;
+        display: block; }
+    header nav#global_nav a {
+      float: right;
+      display: block;
+      margin-left: 2em;
+      text-transform: uppercase;
+      color: white;
+      font-weight: 300;
+      font-size: 0.875em;
+      letter-spacing: 0.2em; }
 
 #intro {
   padding: 4em 0; }
@@ -97,3 +127,6 @@ header {
 footer {
   border-top: 1px solid #dedccc;
   padding: 2em 0 4em 0; }
+  footer p {
+    text-align: center;
+    font-size: 0.75em; }
