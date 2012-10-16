@@ -113,6 +113,26 @@ header {
       font-size: 0.875em;
       letter-spacing: 0.2em; }
 
+.carousel_slide {
+  padding: 6em 4em; }
+  .carousel_slide#slide_1 {
+    background: url(/assets/img/squares.png) center no-repeat; }
+  .carousel_slide h2 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #95553d; }
+    .carousel_slide h2 span {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 0.125em 0.25em;
+      margin-bottom: 0.125em; }
+  .carousel_slide h3 {
+    color: #3b4c56;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.25em 0.5em;
+    display: inline-block;
+    font-weight: 600; }
+
 #intro {
   padding: 4em 0; }
 
